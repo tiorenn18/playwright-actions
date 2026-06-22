@@ -12,7 +12,7 @@ jobs:
     - name: Get code
       uses: actions/checkout@v4
     
-    - name: intall node 18
+    - name: install node 18
       uses: actions/setup-node@v4
       with:
         node-version: 18
